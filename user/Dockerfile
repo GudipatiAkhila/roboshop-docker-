@@ -36,4 +36,3 @@ COPY --from=build --chown=roboshop:roboshop /opt/server /opt/server
 USER roboshop
 CMD ["server.js"]
 ENTRYPOINT ["node"]
-#commit
